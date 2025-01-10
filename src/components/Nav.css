@@ -1,0 +1,28 @@
+/* Navbar.css */
+.navbar {
+    background-color: cadetblue;
+    padding: 10px;
+    height: 50px; 
+    width: 100%px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    /* 수평 배치 */
+    float: left; 
+    margin-right: 40px;
+}
+
+/* h4 태그에 디폴트로 설정되어 있는 마진을 제거해야 다른 리스트들이랑 같은 위치에 정렬 가능 */
+li h4 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(104, 52, 6);
+}
